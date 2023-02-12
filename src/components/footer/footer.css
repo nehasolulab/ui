@@ -1,0 +1,48 @@
+.row.footer-container {
+  padding: 100px 0 0 0;
+}
+.footer-hr {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 0;
+}
+.row.footer-container .footer-logo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+.row.footer-container .footer-general-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+  display: block;
+  margin-bottom: 1rem;
+  color: #000;
+}
+.row.footer-container .footer-general-text:hover {
+  opacity: 0.7;
+}
+.row.footer-container .footer-text {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 0.5;
+}
+.row.footer-container .fa-brands {
+  font-size: 27px;
+  margin-right: 15px;
+}
+.row.footer-container .footer-title,
+.copyright-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  margin-bottom: 23px;
+}
+.row.footer-container .footer-title {
+  font-size: 16px;
+}

@@ -1,0 +1,63 @@
+.header .navbar-brand .nav_logo {
+  max-width: 180px;
+  max-height: 50px;
+  object-fit: contain;
+}
+.header .navbar-nav .nav-link {
+  color: #16392e;
+  font-size: 16px;
+  margin-right: 20px;
+}
+/* search div css */
+.search_div {
+  width: 300px;
+}
+.search_div input {
+  border: 1px solid #e6e6e6;
+  color: #555;
+  padding: 8px;
+  padding-right: 40px;
+  padding-left: 10px;
+  font-size: 0.8125rem;
+  line-height: 21px;
+  height: 39px;
+  width: 100%;
+  border-radius: 20px;
+}
+.search_div .fa-search {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+
+/* toggle icon */
+.navbar .navbar-toggler,
+.navbar .navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+  transition: none;
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("../../assets/images/close.svg");
+}
+.navbar-toggler.collapsed .navbar-toggler-icon {
+  background-image: url("../../assets/images/hamburger.svg");
+}
+.navbar {
+  --bs-navbar-toggler-transition: none;
+}
+/* dropdown */
+.dropdown-toggle::after {
+  vertical-align: 0.2em;
+}
+/* responsive */
+@media (max-width: 991px) {
+  .navbar-collapse.collapse {
+    position: absolute;
+  }
+  .navbar-collapse.collapse.show {
+    top: 80px;
+    left: 20px;
+  }
+}
