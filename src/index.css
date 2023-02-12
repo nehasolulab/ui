@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+a,
+a:hover {
+  text-decoration: none !important;
+  color: inherit;
+}
+/* global margin padding classes */
+.pb_30 {
+  padding-bottom: 30px;
+}
+/* section title */
+.section_title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.display-4.weight-600 {
+  font-weight: 500;
+}
+
+/* responsive */
+@media (max-width: 991px) {
+  .menu-open {
+    height: 100vh;
+    background-color: rgb(248, 249, 250);
+    position: fixed;
+    width: 100%;
+  }
+  .menu-open main {
+    opacity: 0;
+  }
+}
