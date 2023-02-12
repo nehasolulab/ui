@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Button, Tabs, Tab } from "react-bootstrap";
 import {
+  BrandCard,
+  brands,
   category,
   CategoryCard,
   deals,
@@ -186,8 +188,18 @@ const Dashboard = () => {
         </Tabs>
       </Container>
 
+      {/* brand section */}
+      <Container className="my-5 pt-4">
+        <h2 className="section_title pb-3">Choose By Brand</h2>
+        <div className="brand_container">
+          {brands.map((item) => (
+            <BrandCard title={item.title} url={item.url} />
+          ))}
+        </div>
+      </Container>
+
       {/* discount section */}
-      <Container className="my-5">
+      <Container className="my-5 pt-4">
         <h2 className="section_title pb_30">Get Up To 70% Off</h2>
         <div className="deals_container">
           {discounts.map((item) => (
