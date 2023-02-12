@@ -136,19 +136,24 @@
 }
 
 /* brand section css */
-.brand_img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
 .brandLogo {
-  position: absolute;
-  bottom: 0;
-  width: 30px;
-  height: 30px;
-  object-fit: contain;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
   border-radius: 50%;
-  z-index: 9999;
+  margin-right: 15px;
+}
+.brand_title {
+  margin-bottom: 0.2rem;
+}
+.brand_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.brand_card {
+  background-color: #efefef;
+  border-radius: 10px;
+  padding: 10px;
 }
 /* responsive */
