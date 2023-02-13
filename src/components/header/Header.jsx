@@ -44,7 +44,7 @@ const Header = () => {
                 </Nav>
               </Navbar.Collapse>
             </div>
-            <div className="d-sm-flex align-items-center justify-content-between d-none">
+            <div className="d-md-flex align-items-center justify-content-between d-none">
               {/* search */}
               <div className="position-relative search_div me-5">
                 <input type="search" placeholder="Search Products" />

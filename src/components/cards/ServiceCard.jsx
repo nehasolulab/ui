@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceCard = ({ serviceTitle, url }) => {
   return (
-    <div className="col-md-4 col-12">
+    <div className="col-md-4 col-12 service_col">
       <div className="service_box">
         <div className="service_text_container p-3">
           <h2>{serviceTitle}</h2>

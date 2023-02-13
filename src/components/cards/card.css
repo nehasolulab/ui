@@ -34,3 +34,13 @@
   position: absolute;
   bottom: 0;
 }
+/* responsive */
+@media (max-width: 768px) {
+  .service_box {
+    width: 100%;
+  }
+  .service_container
+    .service_col:not(.service_container .service_col:last-child) {
+    margin-bottom: 50px;
+  }
+}
