@@ -10,7 +10,8 @@
 }
 /* search div css */
 .search_div {
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
 }
 .search_div input {
   border: 1px solid #e6e6e6;

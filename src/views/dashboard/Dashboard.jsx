@@ -211,7 +211,7 @@ const Dashboard = () => {
       {/* services section */}
       <Container className="my-5">
         <h2 className="section_title pb_30">Services To Help You Shop</h2>
-        <div className="row">
+        <div className="row service_container">
           {services.map((item) => (
             <ServiceCard serviceTitle={item.serviceTitle} url={item.url} />
           ))}
